@@ -1,0 +1,45 @@
+html{
+    min-height: 100vh;
+}
+body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+.login-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dashboard-content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabela-content{
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+}
+.menu ul li a{
+    color: aliceblue;
+}
+#navbarNav{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: flex-end!important;
+    align-items: flex-end;
+}
+form .parsley-errors-list .parsley-required{
+    color:red!important;
+}
